@@ -1,0 +1,109 @@
+
+/* Universal selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Element selector: h2 */
+h2 {
+    color: #2c3e50;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+/* Element selector: h3 */
+h3 {
+    color: #34495e;
+    font-size: 1.5em;
+    margin-bottom: 8px;
+}
+
+/* Element selector: hr */
+hr {
+    border: 0;
+    height: 2px;
+    background-color: #e74c3c;
+    margin: 20px 0;
+}
+
+/* Element selector: p */
+p {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+/* Element selector: div */
+div {
+    padding: 15px;
+    border: 1px solid #bdc3c7;
+    background-color: #ecf0f1;
+}
+
+/* Element selector: span */
+span {
+    color: #e67e22;
+    font-weight: bold;
+}
+
+/* Pseudo-elements: time */
+time::before {
+    content: '<<';
+    color: #16a085;
+}
+
+time::after {
+    content: '>>';
+    color: #ff0000;
+}
+
+/* Element selector: img */
+img {
+    margin-left: 15px;
+    height: 300px;
+    width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+}
+
+/* Element selector: a */
+a {
+    text-decoration: none;
+    color: #ea0e4c;
+}
+
+/* Pseudo-class selector */
+a:hover {
+    color: #6200ee;
+    text-decoration: underline;
+}
+
+/* Class selector */
+.highlight {
+    background-color: yellow;
+    padding: 3px;
+}
+
+/* Class selector */
+.center {
+    text-align: center;
+}
+
+/* ID selector */
+#special-paragraph {
+    font-size: 1.2em;
+    color: #8e44ad;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-left: 5px solid #8e44ad;
+}
+
+/* Group selector */
+h2,
+h3,
+p {
+    margin-left: 20px;
+}
